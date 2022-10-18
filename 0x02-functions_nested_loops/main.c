@@ -7,6 +7,6 @@
   */
 int main(void)
 {
-	print_sign(1);
+	_abs(0);
 	return (0);
 }
