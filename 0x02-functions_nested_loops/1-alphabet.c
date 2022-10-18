@@ -7,18 +7,14 @@
   *
   * Return: always 0
   */
-int main(void)
+void print_alphabet(void)
 {
-	void print_alphabet(void)
+	int i;
+
+	for (i = 'a'; i <= 'z'; i++)
 	{
-		char i;
-
-		for (i = 'a'; i <= 'z'; i++)
-		{
-			_putchar(i);
-		}
+		_putchar(i);
 	}
-	_putchar('\n');
 
-	return (0);
+	_putchar('\n');
 }
