@@ -4,12 +4,17 @@
 #include "main.h"
 
 /**
-  * main - entry point
+  * positive_or_negative - prints the value of random numbers
+  *
+  *@i: a parameter
   *
   * Return: always 0
   */
 void positive_or_negative(int i)
 {
+	srand(time(0));
+	i = rand() - RAND_MAX / 2;
+
 	if (i == 0)
 		printf("%d is zero\n", i);
 	else if (i > 0)
