@@ -7,7 +7,7 @@
   */
 int main(void)
 {
-	_isdigit(1);
+	_isdigit(0);
 
 	return (0);
 }
