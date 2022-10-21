@@ -7,7 +7,7 @@
   */
 int main(void)
 {
-	_isdigit(1);
+	mul(8, 9);
 
 	return (0);
 }
