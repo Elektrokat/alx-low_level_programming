@@ -7,7 +7,7 @@
  */
 int main(void)
 {
-	_isdigit(0);
+	print_most_numbers();
 
 	return (0);
 }
