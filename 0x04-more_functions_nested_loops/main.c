@@ -7,7 +7,7 @@
  */
 int main(void)
 {
-	print_numbers();
+	_isdigit(0);
 
 	return (0);
 }
