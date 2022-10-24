@@ -7,7 +7,7 @@
  */
 int main(void)
 {
-	print_diagonal(12);
+	print_square(12);
 
 	return (0);
 }
