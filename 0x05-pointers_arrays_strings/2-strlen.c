@@ -9,7 +9,10 @@
   */
 int _strlen(char *s)
 {
-	s = "Hello fucking World!";
+	int boy = 0;
 
-	return (18);
+	while (*s++)
+		boy++;
+
+	return (boy);
 }
