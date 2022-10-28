@@ -1,12 +1,18 @@
 #include "main.h"
 
 /**
-  * main - entry point
-  *
-  * Return: always 0
-  */
+   * main - check the code
+    *
+     * Return: Always 0.
+      */
 int main(void)
 {
-	print_times_table(100);
-	return (0);
+	    int r;
+
+	        print_last_digit(98);
+		    print_last_digit(0);
+		        r = print_last_digit(-1024);
+			    _putchar('0' + r);
+			        _putchar('\n');
+				    return (0);
 }
